@@ -12,13 +12,15 @@
         </div>
         <div class='navbar-collapse collapse'>
           <ul class='nav navbar-nav'>
-            <li><a href='viewCourses.php'>View Courses</a></li>
             <li><a href='explorePlans.php'>Explore Plans</a></li>
-            <li><a href='calculateGPA.php'>Calculate GPA</a></li>
+            <li><a href='calculateKFUPMGPA.php'>Calculate GPA</a></li>
+            <li><a href='advising.php'>Advising</a></li>
+            <li><a href='courses.php'>Courses</a></li>
+            <li><a href='profile.php'>Profile</a></li>
           </ul>
           <ul class='nav navbar-nav navbar-right'>
-            <li><a href='signup.php'>Sign Up</a></li>
-            <li><a href='login.php'>Log In</a></li>
+            <li><a href='profile.php'>Hello Omar Aleisa, A student</a></li>
+            <li><a href='logout.php'>Log Out</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

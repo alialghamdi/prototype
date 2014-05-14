@@ -43,7 +43,7 @@
           <br>
           
         <p>
-          <a class="btn btn-lg btn-primary" href="calculateGPA2.php" role="button">Sign Up &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="calculateGPA2.php" role="button">Continue &raquo;</a>
         </p>
       </div>
 
