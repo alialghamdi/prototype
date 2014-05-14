@@ -1,5 +1,6 @@
 <?php
-        echo "<meta charset='utf-8'>
+        echo
+        "<meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <meta name='description' content=''>
@@ -9,7 +10,12 @@
         <link href='css/bootstrap.min.css' rel='stylesheet'>
 
         <!-- Custom styles for this template -->
-        <link href='theme.css' rel='stylesheet'>
+        <link href='css/theme.css' rel='stylesheet'>
+        
+        <style type='text/css'>
+            @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800');
+        </style>
+
 
         <!-- Just for debugging purposes. Don't actually copy this line! -->
         <!--[if lt IE 9]><script src='js/ie8-responsive-file-warning.js'></script><![endif]-->

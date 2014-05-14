@@ -1,7 +1,56 @@
 body {
-  min-height: 2000px;
+  /*min-height: 2000px;*/
+  background: #eaeaea url(../img/agsquare.png);
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
 }
 
 .navbar-static-top {
-  margin-bottom: 19px;
+    margin-bottom: 40px;
+    border-top:thick solid #65ace0;
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+.navbar-header {
+    /*background-color: rgba(245, 245, 245, 0.4);*/
+    padding-left: 18px;
+}
+
+.navbar-header a{
+    color: #4793cb !important;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+
+
+
+
+
+
+/* Unused stuff */
+.wrapper {
+    min-height: 85%;
+    height: auto !important;
+    height: 50%;
+    margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer, .push {
+    height: 50px; /* .push must be the same height as .footer */
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.71);
+    position: relative;
+    color: grey;
+    margin-top: -50px;
+    clear:both;
+    padding-top:15px;
+    text-align: center;
 }

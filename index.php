@@ -11,6 +11,8 @@
       <?php
         include("guestNav.php");
       ?>
+    
+        
     <div class="container">
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
@@ -24,9 +26,9 @@
 
     </div> <!-- /container -->
 
-
     <?php
         include("javascript.php");
     ?>
+    
   </body>
 </html>
