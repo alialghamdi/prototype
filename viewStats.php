@@ -16,15 +16,39 @@
       <div class="jumbotron">
         <div class="row">
             <div class="col-md-4">
-                <h3>Choose stats:</h3>
-                
-                
+                <select class="form-control">
+                    <option>Numbers</option>
+                    <option>Average</option>
+                </select>
             </div>
-            <div class="col-md-8">
-                
+            
+            <div class="col-md-4">
+                <select class="form-control">
+                    <option>Course</option>
+                    <option>Semester</option>
+                    <option>Program</option>
+                    <option>Level</option>
+                    <option>Approved Plans</option>
+                </select>
             </div>
+            
+            <div class="col-md-4">
+                <select class="form-control">
+                    <option>SWE363</option>
+                    <option>COE202</option>
+                    <option>ICS353</option>
+                    <option>MIS205</option>
+                    <option>CISE307</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <br>
+                <p class="well">Number of enrolled students is 86</p>
+            </div>
+            
         </div>
-        <br>  
+        <br>
+        </div>  
       </div>
 
     </div> <!-- /container -->
