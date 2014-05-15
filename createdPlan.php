@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>KFUPM Academic Planner - Plan</title>
+    <title>KFUPM Academic Planner - View Plan</title>
      <?php
         include("head.php");
       ?>
@@ -97,8 +97,6 @@
                         <h3 class="panel-title">Comments</h3>
                     </div>
                     <div class="panel-body">
-                        <p class="well"><b>Saleh:</b> I guess you can do better.</p>
-                        <p class="well"><b>Ali:</b> This is perfect.</p>
                         <p>
                             <textarea class="form-control" rows="3">Write a comment...</textarea><br>
                             <button type="editPlan.php" class="btn btn-primary btn-lg btn-block">Comment</button>

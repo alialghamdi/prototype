@@ -61,10 +61,10 @@ html, body {
 #rating-up {
    float: right;
    color: green;
-    margin: 10px;
+    margin: auto;
 }
 
 #rating-down {
     float: right;
-    margin: 10px;
+    margin-right: 10px;
 }

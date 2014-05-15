@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>KFUPM Academic Planner - Profile</title>
+    <title>KFUPM Academic Planner - Explore Plans</title>
      <?php
         include("head.php");
       ?>
@@ -15,24 +15,39 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
-                
+            <div class="col-md-6">
+                <select class="form-control">
+                    <option>SWE</option>
+                    <option>COE</option>
+                    <option>ICS</option>
+                    <option>MIS</option>
+                    <option>CISE</option>
+                </select>
             </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <h3>Your plans:</h3>
+            <div class="col-md-6">
+                <select class="form-control">
+                    <option>Recent</option>
+                    <option>Highly Rated</option>
+                    <option>Favorite</option>
+                </select>
+            </div>
+            <div class="col-md-6">
                 <br>
-                <a href="viewPlan.php" type="button" class="btn btn-primary btn-lg btn-block">Primary Plan</a>
-                <button type="button" class="btn btn-default btn-lg btn-block">Plan #2</button>
-                <button type="button" class="btn btn-default btn-lg btn-block">Plan #3</button>
-            
+                <a href="viewPlan.php" type="button" class="btn btn-default btn-lg btn-block">Omar's Plan</a>
+                <button type="button" class="btn btn-default btn-lg btn-block">Hamad's Plan</button>
+                <button type="button" class="btn btn-default btn-lg btn-block">Ali's Plan</button>
+                <button type="button" class="btn btn-default btn-lg btn-block">more...</button>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-6">
+            <br>
+                <button type="button" class="btn btn-default btn-lg btn-block">Faisa's Plan</button>
+                <button type="button" class="btn btn-default btn-lg btn-block">Naif's Plan</button>
+                <button type="button" class="btn btn-default btn-lg btn-block">Faleh's Plan</button>
+                <button type="button" class="btn btn-default btn-lg btn-block">more...</button>
+            </div>
         </div>
-        <br>  
+        <br>
+        </div>  
       </div>
 
     </div> <!-- /container -->
