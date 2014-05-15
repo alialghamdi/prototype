@@ -12,8 +12,8 @@
         </div>
         <div class='navbar-collapse collapse'>
           <ul class='nav navbar-nav'>
-            <li><a href='explorePlans.php'>Advising</a></li>
-            <li><a href='calculateKFUPMGPA.php'>Courses</a></li>
+            <li><a href='advising-approvals.php'>Advising</a></li>
+            <li><a href='advisor-viewCourses.php'>Courses</a></li>
             <li><a href='advising.php'>Stats</a></li>
           </ul>
           <ul class='nav navbar-nav navbar-right'>

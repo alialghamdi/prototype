@@ -17,10 +17,12 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Welcome</h1>
-        <p>Hello, we love you &lt;3.</p>
-        <p>We are here to make your acadmic plan? How about we start with you registering?</p>
+        <br>
+        <p>This is the main screen of KAP</p>
+        <p>For more information about this project, visit our website: <a href="http://www.KAPTeam.com">www.KAPTeam.com</a></p>
+        <br>
         <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Sign Up &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="" role="button">Log In &raquo;</a> <a class="btn btn-lg btn-primary" href="" role="button">Sign Up &raquo;</a>
         </p>
       </div>
 

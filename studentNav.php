@@ -19,7 +19,7 @@
             <li><a href='profile.php'>Profile</a></li>
           </ul>
           <ul class='nav navbar-nav navbar-right'>
-            <li><a href='profile.php'>Hello Omar Aleisa, A student</a></li>
+            <li><a href='profile.php'>Hello Omar Aleisa (Student)</a></li>
             <li><a href='index.php'>Log Out</a></li>
           </ul>
         </div><!--/.nav-collapse -->
