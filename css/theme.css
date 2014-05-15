@@ -36,19 +36,10 @@ li.active a{
 
 
 
-#rating-up {
-   float: right;
-   color: green;
-    margin: 10px;
-}
+
 
 #rating-up-not-green {
    float: right;
-    margin: 10px;
-}
-
-#rating-down {
-    float: right;
     margin: 10px;
 }
 
@@ -78,9 +69,7 @@ li.active a{
     padding-top:15px;
     text-align: center;
 }
-<<<<<<< HEAD
 */
-=======
 
 #rating-up {
    float: right;
@@ -92,4 +81,3 @@ li.active a{
     float: right;
     margin-right: 10px;
 }
->>>>>>> FETCH_HEAD
