@@ -16,7 +16,7 @@
       <div class="jumbotron">
         <div class="row">
             <div class="col-md-8">
-                <h3>Plan: <span id="rating-up" class="glyphicon glyphicon-thumbs-up"></span>  
+                <h3>Plan: <span id="rating-up-not-green" class="glyphicon glyphicon-thumbs-up"></span>  
                  <span id="rating-down" class="glyphicon glyphicon-thumbs-down"></span></h3>
                  
                 <br>

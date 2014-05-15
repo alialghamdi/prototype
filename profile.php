@@ -16,7 +16,7 @@
       <div class="jumbotron">
         <div class="row">
             <div class="col-md-6">
-                <h3>Ali Alghamdi</h3>
+                <h3>Omar Aleisa</h3>
                 <br>
                 <h4>Level: Senior</h4>
                 <h4>Current GPA: 3.9</h4>
