@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>KFUPM Academic Planner - Profile</title>
+    <title>KFUPM Academic Planner - View Stats</title>
      <?php
         include("head.php");
       ?>

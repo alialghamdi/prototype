@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>KFUPM Academic Planner - Plan</title>
+    <title>KFUPM Academic Planner</title>
      <?php
         include("head.php");
       ?>
@@ -9,14 +9,15 @@
 
   <body>
       <?php
-        include("studentNav.php");
+        include("advisorNav.php");
       ?>
     <div class="container">
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="row">
             <div class="col-md-8">
-                <h3>Plan: <span id="rating-up" class="glyphicon glyphicon-thumbs-up"></span>  
+                <a href="advisor-viewPlan.php">Back</a>
+                <h3>Plan of student: Ahmad Mohammad<span id="rating-up-not-green" class="glyphicon glyphicon-thumbs-up"></span>  
                  <span id="rating-down" class="glyphicon glyphicon-thumbs-down"></span></h3>
                  
                 <br>
@@ -89,16 +90,21 @@
                         <td><button class="btn btn-default">PYP001</button></td>
                     </tr>
                 </table>
-                <a href="editPlan.php" class="btn btn-primary btn-lg btn-block">Edit Plan</a>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button type="modifyPlan.php" class="btn btn-primary btn-lg btn-block">Modify Plan</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="editPlan.php" class="btn btn-primary btn-lg btn-block">Approve Plan</button>
+                    </div>
+                </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Comments</h3>
+                        <h3 class="panel-title">Changes made</h3>
                     </div>
                     <div class="panel-body">
-                        <p class="well"><b>Saleh:</b> I guess you can do better.</p>
-                        <p class="well"><b>Ali:</b> This is perfect.</p>
                         <p>
                             <textarea class="form-control" rows="3">Write a comment...</textarea><br>
                             <button type="editPlan.php" class="btn btn-primary btn-lg btn-block">Comment</button>

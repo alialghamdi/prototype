@@ -30,22 +30,43 @@ html, body {
     background: rgba(255, 255, 255, 0.85);
 }
 
+li.active a{
+    background: rgba(255, 255, 255, 0.45) !important;
+}
+
+
+
+#rating-up {
+   float: right;
+   color: green;
+    margin: 10px;
+}
+
+#rating-up-not-green {
+   float: right;
+    margin: 10px;
+}
+
+#rating-down {
+    float: right;
+    margin: 10px;
+}
 
 
 
 
 
 
-/* Unused stuff */
+/* 
 .wrapper {
     min-height: 85%;
     height: auto !important;
     height: 50%;
-    margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+    margin: 0 auto -50px;
 }
 
 .footer, .push {
-    height: 50px; /* .push must be the same height as .footer */
+    height: 50px;
 }
 
 .footer {
@@ -57,14 +78,18 @@ html, body {
     padding-top:15px;
     text-align: center;
 }
+<<<<<<< HEAD
+*/
+=======
 
 #rating-up {
    float: right;
    color: green;
-    margin: 10px;
+    margin: auto;
 }
 
 #rating-down {
     float: right;
-    margin: 10px;
+    margin-right: 10px;
 }
+>>>>>>> FETCH_HEAD
