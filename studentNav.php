@@ -15,7 +15,7 @@
             <li><a href='explorePlans.php'>Explore Plans</a></li>
             <li><a href='calculateKFUPMGPA.php'>Calculate GPA</a></li>
             <li><a href='advising.php'>Advising</a></li>
-            <li><a href='courses.php'>Courses</a></li>
+            <li><a href='viewCourses.php'>Courses</a></li>
             <li><a href='profile.php'>Profile</a></li>
           </ul>
           <ul class='nav navbar-nav navbar-right'>

@@ -16,7 +16,9 @@
       <div class="jumbotron">
         <div class="row">
             <div class="col-md-8">
-                <h3>Plan:</h3>
+                <h3>Plan: <span id="rating-up" class="glyphicon glyphicon-thumbs-up"></span>  
+                 <span id="rating-down" class="glyphicon glyphicon-thumbs-down"></span></h3>
+                 
                 <br>
                 <table class="table table-striped">
                     <tr>
@@ -31,83 +33,79 @@
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>MATH001</td>
-                        <td>ENGL001</td>
-                        <td>PYP003</td>
-                        <td>PE001</td>
-                        <td>PYP001</td>
-                        <td></td>
-                        <td></td>
+                        <td><button class="btn btn-default">ENGL001</button></td>
+                        <td><button class="btn btn-default">MATH001</button></td>
+                        <td><button class="btn btn-default">PYP003</button></td>
+                        <td><button class="btn btn-default">PE001</button></td>
+                        <td><button class="btn btn-default">PYP001</button></td>
+                        
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>MATH002</td>
-                        <td>ENGL002</td>
-                        <td>PYP003</td>
-                        <td>PE001</td>
-                        <td>PYP001</td>
-                        <td></td>
-                        <td></td>
+                        <td><button class="btn btn-default">ENGL001</button></td>
+                        <td><button class="btn btn-default">MATH001</button></td>
+                        <td><button class="btn btn-default">PYP003</button></td>
+                        <td><button class="btn btn-default">PE001</button></td>
+                        <td><button class="btn btn-default">PYP001</button></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>MATH002</td>
-                        <td>ENGL002</td>
-                        <td>PYP003</td>
-                        <td>PE001</td>
-                        <td>PYP001</td>
-                        <td></td>
-                        <td></td>
+                        <td><button class="btn btn-default">ENGL001</button></td>
+                        <td><button class="btn btn-default">MATH001</button></td>
+                        <td><button class="btn btn-default">PYP003</button></td>
+                        <td><button class="btn btn-default">PE001</button></td>
+                        <td><button class="btn btn-default">PYP001</button></td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>MATH002</td>
-                        <td>ENGL002</td>
-                        <td>PYP003</td>
-                        <td>PE001</td>
-                        <td>PYP001</td>
-                        <td></td>
-                        <td></td>
+                        <td><button class="btn btn-default">ENGL001</button></td>
+                        <td><button class="btn btn-default">MATH001</button></td>
+                        <td><button class="btn btn-default">PYP003</button></td>
+                        <td><button class="btn btn-default">PE001</button></td>
+                        <td><button class="btn btn-default">PYP001</button></td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>MATH002</td>
-                        <td>ENGL002</td>
-                        <td>PYP003</td>
-                        <td>PE001</td>
-                        <td>PYP001</td>
-                        <td></td>
-                        <td></td>
+                        <td><button class="btn btn-default">ENGL001</button></td>
+                        <td><button class="btn btn-default">MATH001</button></td>
+                        <td><button class="btn btn-default">PYP003</button></td>
+                        <td><button class="btn btn-default">PE001</button></td>
+                        <td><button class="btn btn-default">PYP001</button></td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>MATH002</td>
-                        <td>ENGL002</td>
-                        <td>PYP003</td>
-                        <td>PE001</td>
-                        <td>PYP001</td>
-                        <td></td>
-                        <td></td>
+                        <td><button class="btn btn-default">ENGL001</button></td>
+                        <td><button class="btn btn-default">MATH001</button></td>
+                        <td><button class="btn btn-default">PYP003</button></td>
+                        <td><button class="btn btn-default">PE001</button></td>
+                        <td><button class="btn btn-default">PYP001</button></td>
                     </tr>
                     <tr>
                         <td>7</td>
-                        <td>MATH002</td>
-                        <td>ENGL002</td>
-                        <td>PYP003</td>
-                        <td>PE001</td>
-                        <td>PYP001</td>
-                        <td></td>
-                        <td></td>
+                        <td><button class="btn btn-default">ENGL001</button></td>
+                        <td><button class="btn btn-default">MATH001</button></td>
+                        <td><button class="btn btn-default">PYP003</button></td>
+                        <td><button class="btn btn-default">PE001</button></td>
+                        <td><button class="btn btn-default">PYP001</button></td>
                     </tr>
                 </table>
                 <button type="editPlan.php" class="btn btn-primary btn-lg btn-block">Edit Plan</button>
             </div>
             <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Comments</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p class="well"><b>Saleh:</b> I guess you can do better.</p>
+                        <p class="well"><b>Ali:</b> This is perfect.</p>
+                        <p>
+                            <textarea class="form-control" rows="3">Write a comment...</textarea><br>
+                            <button type="editPlan.php" class="btn btn-primary btn-lg btn-block">Comment</button>
+                        </p>
+                    </div>
+                </div>
                 
-            </div>
-            <div class="col-md-8"></div>
-            <div class="col-md-4">
-                <h3>Comments</h3>
             </div>
         </div>
         <br>  

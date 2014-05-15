@@ -15,7 +15,7 @@
             <li><a href='delegate.php'>Delegate</a></li>
             <li><a href='viewStats.php'>View Stats</a></li>
             <li><a href='linkAdvisor.php'>Link Advisor</a></li>
-            <li><a href='courses.php'>Courses</a></li>
+            <li><a href='viewCourses.php'>Courses</a></li>
             <li><a href='explorePlans.php'>Explore Plans</a></li>
           </ul>
           <ul class='nav navbar-nav navbar-right'>
