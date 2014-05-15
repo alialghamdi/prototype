@@ -11,7 +11,7 @@ else if ($name == "Ali") {
     header('Location: chairman.php');
 }
 else {
-    header('Location: advisor.php');
+    header('Location: advising-approvals.php');
 }
     
 ?>

@@ -17,6 +17,7 @@
             <li><a href='advising.php'>Advising</a></li>
             <li><a href='viewCourses.php'>Courses</a></li>
             <li><a href='profile.php'>Profile</a></li>
+            <li><a href='createPlan.php'>Create Plan</a></li>
           </ul>
           <ul class='nav navbar-nav navbar-right'>
             <li><a href='profile.php'>Hello Omar Aleisa (Student)</a></li>

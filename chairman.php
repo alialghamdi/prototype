@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>KFUPM Academic Planner</title>
+    <title>Hello Ali</title>
      <?php
         include("head.php");
       ?>
@@ -9,7 +9,7 @@
 
   <body>
       <?php
-        include("guestNav.php");
+        include("chairmanNav.php");
       ?>
     
         
@@ -18,12 +18,8 @@
       <div class="jumbotron">
         <h1>Welcome</h1>
         <br>
-        <p>This is the main screen of KAP</p>
-        <p>For more information about this project, visit our website: <a href="http://www.KAPTeam.com">www.KAPTeam.com</a></p>
+        <p>Hello, Ali.
         <br>
-        <p>
-          <a class="btn btn-lg btn-primary" href="login.php" role="button">Log In &raquo;</a> <a class="btn btn-lg btn-primary" href="signup.php" role="button">Sign Up &raquo;</a>
-        </p>
       </div>
 
     </div> <!-- /container -->
